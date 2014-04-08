@@ -16,8 +16,12 @@ meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Test-Import
+requires:
+  Capture::Tiny: 0
+  Test::Builder::Module: 0
+  Test::More: 0
 resources:
   bugtracker: https://github.com/preaction/Test-Import/issues
   homepage: https://github.com/preaction/Test-Import
   repository: https://github.com/preaction/Test-Import.git
-version: 0.002
+version: 0.003

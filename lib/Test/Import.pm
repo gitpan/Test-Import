@@ -1,6 +1,6 @@
 package Test::Import;
 {
-  $Test::Import::VERSION = '0.002';
+  $Test::Import::VERSION = '0.003';
 }
 # ABSTRACT: Test functions to ensure modules import things
 
@@ -103,7 +103,7 @@ Test::Import - Test functions to ensure modules import things
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 SYNOPSIS
 
