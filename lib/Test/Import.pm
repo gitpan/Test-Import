@@ -1,6 +1,6 @@
 package Test::Import;
 {
-  $Test::Import::VERSION = '0.003';
+  $Test::Import::VERSION = '0.004';
 }
 # ABSTRACT: Test functions to ensure modules import things
 
@@ -103,7 +103,7 @@ Test::Import - Test functions to ensure modules import things
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 SYNOPSIS
 
@@ -146,6 +146,16 @@ namespace.
 =head2 does_import_class 'My::Module', 'Imported::Class'
 
 Ensure that My::Module loads Imported::Class.
+
+=head1 SEE ALSO
+
+=over 4
+
+=item *
+
+L<Test::Exports>
+
+=back
 
 =head1 AUTHOR
 
